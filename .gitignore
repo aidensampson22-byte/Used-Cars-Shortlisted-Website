@@ -1,0 +1,23 @@
+# Python and Django
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+db.sqlite3
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# React dependencies and build output
+node_modules/
+dist/
+build/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+#Debug logs
+npm-debug.log*
